@@ -1,6 +1,8 @@
 function add(x, y){
     return x + y;
 }
+console.log(add(5, 7))
+console.log(add(-5, 22))
 
 function multiply(x, y){
     let total = 0;
@@ -10,6 +12,8 @@ function multiply(x, y){
     }
     return total;
 }
+console.log(multiply(8, 5))
+console.log(multiply(-3, 6))
 
 function power(x, n){
     let total = 1;
@@ -19,6 +23,8 @@ function power(x, n){
     }
     return total;
 }
+console.log(power(5, 5))
+console.log(power(2, 10))
 
 function factorial(x){
     let total = 1;
@@ -27,6 +33,9 @@ function factorial(x){
     }
     return total;
 }
+console.log(factorial(8))
+console.log(factorial(5))
+console.log(factorial(3))
 
 function Fibonacci(n){
 if (n < 2){return n;}
@@ -37,3 +46,6 @@ for (i = 1; i < n; i = add(i, 1)){
 return sequence.pop();
 }
 console.log(Fibonacci(1))
+console.log(Fibonacci(6))
+console.log(Fibonacci(11))
+console.log(Fibonacci(25))
